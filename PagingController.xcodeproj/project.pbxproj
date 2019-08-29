@@ -14,6 +14,7 @@
 		7A20F41522FAFF7400A8C947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A20F41322FAFF7400A8C947 /* LaunchScreen.storyboard */; };
 		7A20F42022FAFF7400A8C947 /* PagingControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20F41F22FAFF7400A8C947 /* PagingControllerTests.swift */; };
 		7A20F42B22FAFF7400A8C947 /* PagingControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20F42A22FAFF7400A8C947 /* PagingControllerUITests.swift */; };
+		7A20F43922FB081B00A8C947 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20F43822FB081A00A8C947 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7A20F42622FAFF7400A8C947 /* PagingControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagingControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A20F42A22FAFF7400A8C947 /* PagingControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingControllerUITests.swift; sourceTree = "<group>"; };
 		7A20F42C22FAFF7400A8C947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A20F43822FB081A00A8C947 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7A20F40A22FAFF7200A8C947 /* AppDelegate.swift */,
 				7A20F40C22FAFF7200A8C947 /* ViewController.swift */,
+				7A20F43822FB081A00A8C947 /* PageViewController.swift */,
 				7A20F40E22FAFF7200A8C947 /* Main.storyboard */,
 				7A20F41122FAFF7400A8C947 /* Assets.xcassets */,
 				7A20F41322FAFF7400A8C947 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A20F43922FB081B00A8C947 /* PageViewController.swift in Sources */,
 				7A20F40D22FAFF7200A8C947 /* ViewController.swift in Sources */,
 				7A20F40B22FAFF7200A8C947 /* AppDelegate.swift in Sources */,
 			);
